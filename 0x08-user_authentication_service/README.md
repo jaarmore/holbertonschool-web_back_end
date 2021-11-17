@@ -11,6 +11,9 @@
 + You should use `SQLAlchemy 1.3.x`
 + All your files must be executable
 + The length of your files will be tested using `wc`
++ All your functions should be type annotated
++ The flask app should only interact with `Auth` and never with `DB` directly.
++ Only public methods of `Auth` and `DB` should be used outside these classes
 
 ## Tasks
 
